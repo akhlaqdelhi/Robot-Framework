@@ -1,0 +1,11 @@
+{
+  "EmpId": 2079,
+  "Name": "Akhlaq Ahmed",
+  "DOB": "20-06-1985",
+  "Skills": ["Postman API","Robot Framework","SQL"],
+  "Address": {
+    "Street": "40 feet road",
+    "City": "New Delhi",
+    "PIN": 110025
+  }
+  }
