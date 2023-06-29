@@ -31,4 +31,3 @@ select_item
     END
     Log    item found at index no - ${index}
     Click Button    (//div[@class='card-footer'])[${index}]/button
-    
