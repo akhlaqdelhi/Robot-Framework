@@ -41,11 +41,13 @@ navigate_edit_profile
 
 update_profile_and_resume
     Choose File     id:attachCV     ${file_path_resume}
+    Sleep    3s
 
 
 Verify_profiled_successfully
     Reload Page
     ${curr_date}        Get Current Date    time_zone=local  result_format=%b %d, %Y
+    Wait Until Element Is Visible    xpath://div[@class='attachCV']//div[@class='cvPreview']//div[@class='updateOn typ-14Regular']
     Element Text Should Be    xpath://div[@class='attachCV']//div[@class='cvPreview']//div[@class='updateOn typ-14Regular']     Uploaded on ${curr_date}
     Capture Page Screenshot     filename=ScreenShot_edit_prfile_{index}.png
 
