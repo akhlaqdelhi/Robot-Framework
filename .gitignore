@@ -2,3 +2,7 @@ Results/*
 .idea/*
 venv/*
 geckodriver.log
+log.html
+output.xml
+report.html
+Screenshot*.png
