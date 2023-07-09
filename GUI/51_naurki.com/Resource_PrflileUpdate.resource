@@ -13,11 +13,12 @@ ${el_txt_password}     xpath://form[@name='login-form']/div[@class='form-row']/i
 ${el_btn_submit_login}     xpath://form[@name='login-form']//button[@class='btn-primary loginButton']
 ${el_link_view_profile}     link:View profile
 ${el_image_profile}     xpath://div[@class='img-wrapper col s2 center']/div[@class='photoTrigger']/img
-${file_path_resume}     C:\\Users\\akhlaq.ahmed\\OneDrive\\Desktop\\Resume-Akhlaq_Ahmed.docx
+#${file_path_resume}     C:\\Users\\akhlaq.ahmed\\OneDrive\\Desktop\\Resume-Akhlaq_Ahmed.docx
+${file_path_resume}     C:\\Users\\Lenovo\\OneDrive\\Desktop\\Resume-Akhlaq_Ahmed.docx
 
 *** Keywords ***
 login_to_job_portal
-    Create Webdriver    Firefox
+    Create Webdriver    Chrome
     Maximize Browser Window
     Go To    ${portal_url}
     Wait Until Element Is Enabled        ${el_btn_login}
@@ -25,6 +26,7 @@ login_to_job_portal
     Wait Until Element Is Enabled        ${el_txt_username}
     ${nk_username}      Get_field_from_config      nk_username
     ${nk_password}      Get_field_from_config       nk_password
+    Sleep    2s
     Input Text    ${el_txt_username}        ${nk_username}[0]
     Input Password    ${el_txt_password}        ${nk_password}[0]
     Click Button    ${el_btn_submit_login}
