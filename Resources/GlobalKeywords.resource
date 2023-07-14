@@ -4,7 +4,7 @@ Library    JSONLibrary
 *** Keywords ***
 Get_field_from_config
     [Arguments]    ${fieldName}
-    ${file_obj} =     Load JSON From File    C:\\Users\\akhlaq.ahmed\\credentials.json
+    ${file_obj} =     Load JSON From File    C:\\Users\\Lenovo\\credentials.json
     ${fieldValue}=         Get Value From Json     ${file_obj}     $.${fieldName}
     ${l}    Get Length    ${fieldValue}[0]
     IF  ${l}>0
