@@ -1,0 +1,338 @@
+{
+    "requestType": "Deployment",
+    "requestFor": 1,
+    "paymentWebsite": [],
+    "addressList": [
+        {
+            "type": 1,
+            "addressLine1": "J D ROAD W NO 4",
+            "addressLine2": "KOKRAJHAR",
+            "landmark": "NEAR BAZAR INDIA",
+            "state": "AS",
+            "city": 1465,
+            "zipcode": 783370,
+            "country": "India"
+        },
+        {
+            "type": 4,
+            "addressLine1": "J D ROAD W NO 4",
+            "addressLine2": "KOKRAJHAR",
+            "landmark": "NEAR BAZAR INDIA",
+            "state": "AS",
+            "city": 1465,
+            "zipcode": 783370,
+            "country": "India"
+        }
+    ],
+    "responseCode": "1",
+    "responseMessage": "Invalid Request",
+    "leadExternalReferenceId": "L060o00LeadXrefId8180",
+    "leadCategory": "RBL",
+    "dbaName": "Lemke LLC",
+    "onboardingDate": "2022-08-19T01:48:31.562Z",
+    "isExistingCustomer": "No",
+    "legalName": "Parisian - Langworth",
+    "sourceOfQuery": 10,
+    "doingBusinessSince": "2019-03-18",
+    "mcc": "5411",
+    "posSold": 2,
+    "softPosSold": 1,
+    "kycStatus": "1",
+    "userEmpId": "13861",
+    "username": "prokitish.roy@pinelabs.com",
+    "annualTurnover": 2100000,
+    "premiseOwnershipType": 2,
+    "businessOwnershipType": 1,
+    "operatingPremiseType": 2,
+    "entityType": 1,
+    "corporateEmail": "sribash.sarkar@gmail.com",
+    "settlementCycle": 2,
+    "merchantTransactionLimit": {
+        "dailyLimit": 100000,
+        "weeklyLimit": 200000,
+        "monthlyLimit": 300000
+    },
+    "contactPersonDetail": [
+        {
+            "type": 4,
+            "contactPersonName": "SRIBASH SARKAR",
+            "mobileNo": "9957062987",
+            "phone": "9957062987",
+            "email": "sribash.sarkar@gmail.com",
+            "designation": 1
+        },
+        {
+            "type": 1,
+            "contactPersonName": "SRIBASH SARKAR",
+            "mobileNo": "9957062987",
+            "phone": "9957062987",
+            "email": "sribash.sarkar@gmail.com",
+            "designation": 1
+        }
+    ],
+    "address": [
+        {
+            "type": 1,
+            "addressLine1": "J D ROAD W NO 4",
+            "addressLine2": "KOKRAJHAR",
+            "landmark": "NEAR BAZAR INDIA",
+            "state": "AS",
+            "city": 1465,
+            "zipcode": 783370,
+            "country": "India"
+        },
+        {
+            "type": 4,
+            "addressLine1": "J D ROAD W NO 4",
+            "addressLine2": "KOKRAJHAR",
+            "landmark": "NEAR BAZAR INDIA",
+            "state": "AS",
+            "city": 1465,
+            "zipcode": 783370,
+            "country": "India"
+        }
+    ],
+    "authorizedSignatoryDetails": [
+        {
+            "title": "Mr.",
+            "name": "SRIBASH SARKAR",
+            "position": 1,
+            "dateOfBirth": "1986-01-08",
+            "panCardNo": "BQSPS5704C",
+            "residenceAddress1": "J D ROAD W NO 4",
+            "residenceAddress2": "KOKRAJHAR",
+            "landmark": "NEAR BAZAR INDIA",
+            "pincode": 783370,
+            "state": "AS",
+            "city": 1465
+        }
+    ],
+    "taxInformation": {
+        "companyPANCard": "ABEFS8180R",
+        "isRegisteredUnderGSTLaw": "No"
+    },
+    "primaryAcquirerId": 26,
+    "merchantBankDetails": {
+        "accountType": 1,
+        "bankExternalId": 9,
+        "nameAsPerBankRecords": "Eva Blanda",
+        "bankAccountNumber": "56702000008180",
+        "ifscCode": "HDFC0002016",
+        "city": "KOKRAJHAR",
+        "bankBranchCode": "2016",
+        "bankBranchAddress": "NEAR ASSAM GRAMIN BIKASH BANK",
+        "settlementMode": "NEFT"
+    },
+    "vasBankAccountMapping": [
+        {
+            "vasId": 101,
+            "merchantBankDetails": {
+                "accountType": 1,
+                "bankExternalId": 9,
+                "nameAsPerBankRecords": "Marlene Schultz",
+                "bankAccountNumber": "56702000008180",
+                "ifscCode": "HDFC0002016",
+                "city": "KOKRAJHAR",
+                "bankBranchCode": "2016",
+                "bankBranchAddress": "NEAR ASSAM GRAMIN BIKASH BANK",
+                "settlementMode": "NEFT"
+            }
+        }
+    ],
+    "vasAcqMapping": [
+        {
+            "vasId": 2004,
+            "isAggregator": true,
+            "quantity": 1,
+            "settlementCycle": 2
+        },
+        {
+            "vasId": 86,
+            "acquirerId": 26,
+            "isAggregator": true,
+            "quantity": 1,
+            "settlementCycle": 2,
+            "edcItemNumber": "ITEM000213",
+            "downstreamPOSItemNumber": "ITEM000211"
+        },
+        {
+            "vasId": 2004,
+            "isAggregator": true,
+            "posType": 3,
+            "quantity": 1,
+            "settlementCycle": 2
+        },
+        {
+            "vasId": 2103,
+            "isAggregator": true,
+            "quantity": 1,
+            "settlementCycle": 2
+        },
+        {
+            "vasId": 2105,
+            "isAggregator": true,
+            "quantity": 1,
+            "settlementCycle": 2
+        },
+        {
+            "vasId": 2011,
+            "isAggregator": true,
+            "quantity": 1,
+            "settlementCycle": 2
+        },
+        {
+            "vasId": 2017,
+            "isAggregator": true,
+            "quantity": 1,
+            "settlementCycle": 2,
+            "payMode": 1
+        }
+    ],
+    "documentsDetails": [
+        {
+            "documentSubType": "PAN Card",
+            "documentType": "Pan Card",
+            "uploadedByName": "Lending Integration User",
+            "uploadedByEmail": "sgholap@deloitte.com",
+            "uploadedDate": "2022-04-18T09:06:32.000Z",
+            "documentRecordLink": "https://pinelabs--uat.my.salesforce.com/a0w1s000001V7lz"
+        }
+    ],
+    "mdrFee": [
+        {
+            "vasId": 2103,
+            "cardType": 12,
+            "value": "1.75",
+            "mdrRateType": 1,
+            "serviceFee": {
+                "mapleFeeType": 1,
+                "nonMapleFeeType": 1
+            }
+        },
+        {
+            "vasId": 2105,
+            "cardType": 12,
+            "value": "1.75",
+            "mdrRateType": 1,
+            "serviceFee": {
+                "mapleFeeType": 1,
+                "nonMapleFeeType": 1
+            }
+        },
+        {
+            "vasId": 2011,
+            "cardType": 12,
+            "value": "1.75",
+            "mdrRateType": 1,
+            "serviceFee": {
+                "mapleFeeType": 1,
+                "nonMapleFeeType": 1
+            }
+        },
+        {
+            "vasId": 2004,
+            "cardType": 12,
+            "value": "[{\"lowerLimit\":0,\"upperLimit\":200000,\"rate\":0,\"rateType\":1,\"annualTurnover\":null},{\"lowerLimit\":200001,\"upperLimit\":9999999999,\"rate\":0,\"rateType\":1,\"annualTurnover\":null}]",
+            "mdrRateType": 4,
+            "serviceFee": {
+                "mapleFeeType": 1,
+                "nonMapleFeeType": 1
+            }
+        },
+        {
+            "vasId": 86,
+            "cardType": 6,
+            "value": "2.05",
+            "mdrRateType": 1,
+            "acquirerId": 26,
+            "serviceFee": {
+                "mapleFeeType": 1,
+                "nonMapleFeeType": 1
+            }
+        },
+        {
+            "vasId": 86,
+            "cardType": 8,
+            "value": "2.05",
+            "mdrRateType": 1,
+            "acquirerId": 26,
+            "serviceFee": {
+                "mapleFeeType": 1,
+                "nonMapleFeeType": 1
+            }
+        },
+        {
+            "vasId": 86,
+            "cardType": 7,
+            "value": "2.05",
+            "mdrRateType": 1,
+            "acquirerId": 26,
+            "serviceFee": {
+                "mapleFeeType": 1,
+                "nonMapleFeeType": 1
+            }
+        },
+        {
+            "vasId": 86,
+            "cardType": 10,
+            "value": "2.05",
+            "mdrRateType": 1,
+            "acquirerId": 26,
+            "serviceFee": {
+                "mapleFeeType": 1,
+                "nonMapleFeeType": 1
+            }
+        },
+        {
+            "vasId": 86,
+            "cardType": 9,
+            "value": "2.75",
+            "mdrRateType": 1,
+            "acquirerId": 26,
+            "serviceFee": {
+                "mapleFeeType": 1,
+                "nonMapleFeeType": 1
+            }
+        },
+        {
+            "vasId": 86,
+            "cardType": 2,
+            "value": "[{\"slabList\":[{\"upperLimit\":200000,\"rateType\":1,\"rate\":0,\"lowerLimit\":0,\"annualTurnover\":[{\"upperLimitAmount\":200000000,\"rateType\":1,\"rate\":0,\"lowerLimitAmount\":0,\"capAmount\":0},{\"upperLimitAmount\":999999999999,\"rateType\":1,\"rate\":0,\"lowerLimitAmount\":200000001,\"capAmount\":0}]},{\"upperLimit\":999999999999,\"rateType\":1,\"rate\":0,\"lowerLimit\":200001,\"annualTurnover\":[{\"upperLimitAmount\":200000000,\"rateType\":1,\"rate\":0,\"lowerLimitAmount\":0,\"capAmount\":0},{\"upperLimitAmount\":999999999999,\"rateType\":1,\"rate\":0,\"lowerLimitAmount\":200000001,\"capAmount\":0}]}],\"mdrType\":4,\"cardNetwork\":\"RUPAY\"},{\"slabList\":[{\"upperLimit\":200000,\"rateType\":1,\"rate\":4000,\"lowerLimit\":0,\"annualTurnover\":[{\"upperLimitAmount\":200000000,\"rateType\":1,\"rate\":4000,\"lowerLimitAmount\":0,\"capAmount\":20000},{\"upperLimitAmount\":999999999999,\"rateType\":1,\"rate\":9000,\"lowerLimitAmount\":200000001,\"capAmount\":100000}]},{\"upperLimit\":9999999999,\"rateType\":1,\"rate\":4000,\"lowerLimit\":200001,\"annualTurnover\":[{\"upperLimitAmount\":200000000,\"rateType\":1,\"rate\":4000,\"lowerLimitAmount\":0,\"capAmount\":20000},{\"upperLimitAmount\":999999999999,\"rateType\":1,\"rate\":9000,\"lowerLimitAmount\":200000001,\"capAmount\":100000}]}],\"mdrType\":4,\"cardNetwork\":\"OTHERS\"}]",
+            "mdrRateType": 6,
+            "acquirerId": 26,
+            "serviceFee": {
+                "mapleFeeType": 1,
+                "nonMapleFeeType": 1
+            }
+        },
+        {
+            "vasId": 2004,
+            "cardType": 12,
+            "value": "[{\"lowerLimit\":0,\"upperLimit\":200000,\"rate\":0,\"rateType\":1,\"annualTurnover\":null},{\"lowerLimit\":200001,\"upperLimit\":9999999999,\"rate\":0,\"rateType\":1,\"annualTurnover\":null}]",
+            "mdrRateType": 4,
+            "posType": 3,
+            "serviceFee": {
+                "mapleFeeType": 1,
+                "nonMapleFeeType": 1
+            }
+        },
+        {
+            "vasId": 2017,
+            "cardType": 12,
+            "value": "1.00",
+            "mdrRateType": 1,
+            "serviceFee": {
+                "mapleFeeType": 1,
+                "nonMapleFeeType": 1
+            }
+        }
+    ],
+    "cseCase": {
+        "externalRefId": "5000oCaseXrefid8180",
+        "customerId": "CUST308180",
+        "navId": "PL2122SO108180",
+        "lmsMerchantId": "378180",
+        "nbsCustomerId": "3198180"
+    },
+    "rblCity": 70421
+}
