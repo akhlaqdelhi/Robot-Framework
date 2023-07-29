@@ -5,4 +5,7 @@ geckodriver.log
 log.html
 output.xml
 report.html
+*.pyc
+.pabotsuitenames
 Screenshot*.png
+pabot_results/*
