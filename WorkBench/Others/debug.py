@@ -23,7 +23,7 @@ def crm_hybrid_po():
     headers = {
         'Content-Type': 'application/json'
     }
-    repr("goin to call an API call")
+    repr("goin to call an API_Automation call")
     response = requests.request("POST", "https://lmstest.pinelabs.com/rest/epos/query.rest", headers=headers, data=payload)
     print(response.json())
     # return response

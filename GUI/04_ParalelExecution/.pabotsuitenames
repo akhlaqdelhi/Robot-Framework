@@ -1,7 +1,0 @@
-datasources:db51e7932d827d216545c6b55d4105f7e966b15e
-commandlineoptions:97d170e1550eee4afc0af065b78cda302a97674c
-suitesfrom:no-suites-from-option
-file:6e16298a632b60c926ebcc4dd21d302cfbeeb319
---suite 01-SampleSuit one
---suite 04 ParalelExecution.02-SampleSuit two
---suite 04 ParalelExecution.03-SampleSuit three
