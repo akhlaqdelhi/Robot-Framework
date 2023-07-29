@@ -8,4 +8,5 @@ report.html
 *.pyc
 .pabotsuitenames
 Screenshot*.png
-pabot_results/*
+*/pabot_results/*
+*.out
