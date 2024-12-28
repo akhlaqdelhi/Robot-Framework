@@ -9,7 +9,7 @@ ${loginbtnLocator}                 id=loginbtn
 ${baseUrl}    https://amigo.amityonline.com/login/index.php
 ${userName}    akhlaq@amityonline.com
 ${passWord}    itN0@#23ae
-
+#thanks to github
 *** Keywords ***
 Open LoginPage
     Create Webdriver    Chrome
