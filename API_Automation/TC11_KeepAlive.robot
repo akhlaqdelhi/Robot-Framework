@@ -4,7 +4,7 @@ Library     RequestsLibrary
 Library     Collections
 Library    SeleniumLibrary
 #\LMS_Automation\GlobalKeyword.robot
-#\LMS_Automation\LMS_UI\WorkBench\BasicExample\TC11_KeepAlive.robot
+#\LMS_Automation\LMS_UI\WorkBench\RobotExample\TC11_KeepAlive.robot
 Resource        ${Current}../../../GlobalKeywords.robot
 
 *** Variables ***

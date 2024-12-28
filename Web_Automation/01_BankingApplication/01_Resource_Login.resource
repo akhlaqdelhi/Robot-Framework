@@ -3,9 +3,9 @@ Library    SeleniumLibrary
 Resource    GlobalVaribles.resource
 
 *** Variables ***
-${username}     mngr509573
-${password}     YsetenU
-# above credential will expire post 20 days after 19-06-2023
+${username}     mngr602070
+${password}     YmydEqE
+# above credential will expire post 20 days, from 15-Sep-2024
 
 *** Keywords ***
 open_portal

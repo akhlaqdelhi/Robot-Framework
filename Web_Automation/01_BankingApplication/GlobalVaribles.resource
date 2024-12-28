@@ -7,6 +7,7 @@ ${baseUrl}      https://demo.guru99.com/V1/index.php
 Get_field_from_config
     [Arguments]    ${fieldName}
     ${file_obj} =     Load JSON From File    ${CURDIR}${/}\\API\\Resources\\Data\\config.json
+    Log Many    config json path    ${CURDIR}${/}\\API\\Resources\\Data\\config.json
     ${fieldValue}=         Get Value From Json     ${file_obj}     $.${fieldName}
     ${l}    Get Length    ${fieldValue}[0]
     IF  ${l}>0

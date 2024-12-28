@@ -1,0 +1,58 @@
+{"level":30,"time":"2024-12-22T16:38:25.457Z","pid":10836,"hostname":"INHL-1277","msg":"Listening on 50322"}
+(node:10836) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-12-22T16:38:25.647Z","pid":10836,"hostname":"INHL-1277","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-12-22T16:38:26.616Z","pid":10836,"hostname":"INHL-1277","msg":"Adding browser to stack: chromium, version: 131.0.6778.33"}
+{"level":30,"time":"2024-12-22T16:38:26.617Z","pid":10836,"hostname":"INHL-1277","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-12-22T16:38:26.617Z","pid":10836,"hostname":"INHL-1277","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-12-22T16:38:26.636Z","pid":10836,"hostname":"INHL-1277","msg":"Start of node method newContext"}
+{"level":30,"time":"2024-12-22T16:38:26.636Z","pid":10836,"hostname":"INHL-1277","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1920,\"height\":1080}}"}
+{"level":30,"time":"2024-12-22T16:38:26.636Z","pid":10836,"hostname":"INHL-1277","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-12-22T16:38:26.636Z","pid":10836,"hostname":"INHL-1277","msg":"Trace file: "}
+{"level":30,"time":"2024-12-22T16:38:26.657Z","pid":10836,"hostname":"INHL-1277","msg":"Changed active context"}
+{"level":30,"time":"2024-12-22T16:38:26.657Z","pid":10836,"hostname":"INHL-1277","msg":"End of node method newContext"}
+{"level":30,"time":"2024-12-22T16:38:26.665Z","pid":10836,"hostname":"INHL-1277","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-12-22T16:38:26.665Z","pid":10836,"hostname":"INHL-1277","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-12-22T16:38:26.898Z","pid":10836,"hostname":"INHL-1277","msg":"Video path: undefined"}
+{"level":30,"time":"2024-12-22T16:38:26.898Z","pid":10836,"hostname":"INHL-1277","msg":"Changed active page"}
+{"level":30,"time":"2024-12-22T16:38:36.911Z","pid":10836,"hostname":"INHL-1277","msg":"Error of node method  newPage"}
+================= Original suppressed error =================
+page.goto: Timeout 10000ms exceeded.
+Call log:
+[2m  - navigating to "https://demo.guru99.com/test/newtours/", waiting until "load"[22m
+
+    at newPage (C:\Users\AkhlaqAhmed\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:12546:18)
+    at async PlaywrightServer.newPage (C:\Users\AkhlaqAhmed\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:13107:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+================= Original suppressed error =================
+{"level":30,"time":"2024-12-22T16:38:36.968Z","pid":10836,"hostname":"INHL-1277","msg":"Start of node method takeScreenshot"}
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\AkhlaqAhmed\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10725:11)
+    at takeScreenshot (C:\Users\AkhlaqAhmed\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10769:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\AkhlaqAhmed\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:13107:34)
+    at Object.onReceiveHalfClose (C:\Users\AkhlaqAhmed\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\AkhlaqAhmed\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\AkhlaqAhmed\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\AkhlaqAhmed\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-12-22T16:38:36.969Z","pid":10836,"hostname":"INHL-1277","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2024-12-22T16:38:37.220Z","pid":10836,"hostname":"INHL-1277","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-22T16:38:37.221Z","pid":10836,"hostname":"INHL-1277","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-22T16:38:37.224Z","pid":10836,"hostname":"INHL-1277","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-22T16:38:37.225Z","pid":10836,"hostname":"INHL-1277","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-22T16:38:37.228Z","pid":10836,"hostname":"INHL-1277","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-22T16:38:37.229Z","pid":10836,"hostname":"INHL-1277","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-22T16:38:37.236Z","pid":10836,"hostname":"INHL-1277","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-22T16:38:37.236Z","pid":10836,"hostname":"INHL-1277","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-22T16:38:37.240Z","pid":10836,"hostname":"INHL-1277","msg":"Changed active context"}
+{"level":30,"time":"2024-12-22T16:38:37.243Z","pid":10836,"hostname":"INHL-1277","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-12-22T16:38:37.256Z","pid":10836,"hostname":"INHL-1277","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-12-22T16:38:37.265Z","pid":10836,"hostname":"INHL-1277","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-22T16:38:37.266Z","pid":10836,"hostname":"INHL-1277","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-22T16:38:37.336Z","pid":10836,"hostname":"INHL-1277","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-12-22T16:38:37.588Z","pid":10836,"hostname":"INHL-1277","msg":"End of node method closeAllBrowsers"}
